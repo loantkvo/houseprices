@@ -14,6 +14,10 @@ Analysis procedure: 
 
 Result:
 ==
-All features:
+All features: use all feature for traning with Adam optimzation
 = 
 ![](result/allfeatures_epoch1000_adam.png)
+
+With early_stop (terminated at the epoch when validation loss stops decreasing)
+![](result/allfeatures_earlyStop_adam.png)
+
