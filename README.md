@@ -12,6 +12,7 @@ Analysis procedure: 
 		- For LotFrontage, missing values are estimated (L2 linear regression) from LotArea
 ![](result/LotFrontageEstimatedFromLotArea.png)
 		- Fill 0/None to other missing values
+<<<<<<< HEAD
 	* Categorical features: Fillna with either 0 or mode 
 2. Inspect the data by visualization
 3. Preprocess:
@@ -22,6 +23,17 @@ Analysis procedure: 
 	
 	![](result/distributions_of_numerical_features.png)
 	
+=======
+	* Categorical features:
+		- Fillna with either 0 or mode 
+2. Inspect the data by visualization
+3. Preprocess:
+
+	3.1. Remove outliers: using either sklearn.ensemble.IsolationForest or normalization (turn on/off for different learning models)
+	
+	3.2. Handle features having covariate-shift
+	![](result/distributions_of_numerical_features.png)
+>>>>>>> 6761fd81d527455bc3081889138eca5d00f304ef
 	![](result/drifting.png)
 	
 	3.3. Remove features that is least 'importance': "Utilities"
