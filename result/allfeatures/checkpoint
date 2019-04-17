@@ -1,2 +1,2 @@
-model_checkpoint_path: "batch005_0110.ckpt"
-all_model_checkpoint_paths: "batch005_0110.ckpt"
+model_checkpoint_path: "2019-04-16batch032_0020_targetScale.ckpt"
+all_model_checkpoint_paths: "2019-04-16batch032_0020_targetScale.ckpt"
