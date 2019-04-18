@@ -30,9 +30,9 @@ II. Analysis procedure: 
 	
 	3.3. Removing features that are least 'importance': "Utilities" (and "Heating")
 				
-				Train	Val	    Test
+				Train	Val	   Test
 				
-		AllPub		1138	285.0	1459.0
+		AllPub		1138	285.0		1459.0
 	
 		NoSeWa		1	NaN	  NaN
 		
